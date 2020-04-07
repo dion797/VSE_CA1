@@ -1,26 +1,27 @@
-IRS-CS-2019-04-27-IS01PT-GRP-AMAB
+VSE_CA1
 ---
 
 ## SECTION 1 : PROJECT TITLE
-ISS AMAB 
-(ASK-ME-ANYTHING-BOT)
+Project Title
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-A Chatbot (sometimes referred to as a chatterbot) is a computer program that attempts to simulate the conversation of a human being via text or voice interactions.
-Commands or inputs are received from the user and the Chatbot will respond in a satisfactory way to the user which results in the completion of the action or conversation initiated by either of them.
-This project aims to provide a viable Chatbot for NUS ISS website.   
+In this assignment, we attempted to efficiently detect objects in an image while simultaneously generating a high-quality segmentation mask for each instance. 
+The method adopted is the Mask R-CNN. It is a deep neural network aimed to solve semantic segmentation problem in machine learning or computer vision. There are two stages of Mask RCNN. 
+First, it generates proposals about the regions where there might be an object based on the input image. Second, it predicts the class of the object, refines the bounding box and generates a mask in pixel level of the object based on the first stage proposal.  
 
 ---
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
 | Official Full Name  | Student ID (MTech Applicable)  | 
 | :------------ |:---------------:| 
+| IAN TAN ENG KIONG | A0120534W | 
 | KHOO WEE BENG | A0195308Y | 
 
 
+
 ---
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 4 : USE CASE DEMO
 
 [![AMAB](https://i9.ytimg.com/vi/lwk6KzagxJo/mq1.jpg?sqp=CLTkxOcF&rs=AOn4CLAwjj2kbTRT1l9Hwnkfjqn4s7e_1Q)](https://youtu.be/lwk6KzagxJo "AMAB")
 
