@@ -57,18 +57,58 @@ First, it generates proposals about the regions where there might be an object b
 
 > "extra_compile_args={'gcc': ['/Qstd=c99']},"
 
+### [ 5 ] Setup Environment 
 
+> Run Anaconda Prompt and execute the following commands
 
----
+> conda create --name mask python=3.6
+
+> activate mask
+
+> conda install numpy cython
+
+### [ 6 ] install cocoapi/PythonAPI 
+
+> Still in Anaconda Prompt
+
+> cd <PATH_OF_cocoapi/PythonAPI>
+
+> python setup.py install
+
+### [ 7 ] Setup Mask RCNN
+
+> https://github.com/matterport/Mask_RCNN
+
+> Download zip file to local storage
+
+> cd <PATH_OF_Mask_RCNN>
+
+> python setup.py install
+
+> download file(https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) to <PATH_OF_Mask_RCNN>
+
+### [ 8 ] Setup Environment part 2
+
+> Go back to Anaconda Prompt and activate mask
+
+> pip install scikit-image keras==2.2.5 tensorflow==1.12.0 tensorflow-gpu==1.12.0 imgaug jupyter
+
+> Exit Anaconda Prompt 
+
+> copy datasets/fmask to <PATH_OF_Mask_RCNN>/datasets/fmask
+
+> copy samples/fmask to <PATH_OF_Mask_RCNN>/datasets/fmask
+
+### [ 9 ] Run
+
+> Run Jupyter Notebook in path samples/fmask
+
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 amab.pdf
-`<Github File Link>` : <https://github.com/dion797/IRS-CS-2019-04-27-IS01PT-GRP-AMAB/blob/master/ProjectReport/amab.pdf>
+`<Github File Link>` : <https://github.com/dion797/VSE_CA1/blob/master/ProjectReport/Segmentation_Maskv2.docx>
 
 ---
 ## SECTION 7 : MISCELLANEOUS
-
-ChatBot.xlsx
-`<Github File Link>` : <https://github.com/dion797/IRS-CS-2019-04-27-IS01PT-GRP-AMAB/blob/master/Miscellaneous/ChatBot.xlsx>
 
 ---
