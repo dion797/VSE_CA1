@@ -105,7 +105,6 @@ First, it generates proposals about the regions where there might be an object b
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-amab.pdf
 `<Github File Link>` : <https://github.com/dion797/VSE_CA1/blob/master/ProjectReport/Segmentation_Maskv2.docx>
 
 ---
