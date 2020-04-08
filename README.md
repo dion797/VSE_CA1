@@ -23,78 +23,34 @@ First, it generates proposals about the regions where there might be an object b
 ---
 ## SECTION 4 : USE CASE DEMO
 
-[![AMAB](https://i9.ytimg.com/vi/lwk6KzagxJo/mq1.jpg?sqp=CLTkxOcF&rs=AOn4CLAwjj2kbTRT1l9Hwnkfjqn4s7e_1Q)](https://youtu.be/lwk6KzagxJo "AMAB")
+![Splash image labelled](https://github.com/dion797/VSE_CA1/blob/master/Miscellaneous/sample.png)
 
 ---
-## SECTION 5 : USER GUIDE
-### [ 1 ] To run the system using iss-vm
+## SECTION 5 : SETUP INSTRUCTIONS
+### [ 1 ] Visual Studio (Install only if C++ build librarys has not been installed)
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+> downloaded Build Tools for Visual Studio 2019/Community/(Visual C++) from: https://https://visualstudio.microsoft.com/downloads/
 
-> start iss-vm
+### [ 2 ] CUDA 9.0
 
-> open terminal in iss-vm
+> install CUDA 9.0 from https://developer.nvidia.com/cuda-90-download-archive
 
-> $ git clone https://github.com/dion797/IRS-CS-2019-04-27-IS01PT-GRP-AMAB.git
+### [ 3 ] cuDNN 
 
-### as there is an existing npm of lower version, upgrade npm with the following instructions
+> install cuDNN for CUDA 9.0 
+> https://developer.nvidia.com/rdp/cudnn-download
+> Select Download cuDNN v7.6.5 (November 5th, 2019), for CUDA 9.0
 
-> open terminal in iss-vm
+### [ 4 ] Setup cocoapi 
 
-> $ sudo npm cache clean -f
+> https://github.com/cocodataset/cocoapi
+> Download zip file to local storage
+> First go to cocoapi\PythonAPI\setup.py and change line 14 from:
+> "extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],"
+> to
+> "extra_compile_args={'gcc': ['/Qstd=c99']},"
 
-> $ sudo npm install -g n
 
-> $ sudo n stable
-
-### find folder installed for new npm
-### usually during mkdir e.g. “/usr/local/n/versions/node/10.16.0/bin”
-### symlink nodejs to /usr/bin/node
-
-> ln -s /usr/local/n/versions/node/10.16.0/bin /usr/bin/node
-
-### if link exists, 'unlink /usr/bin/node' first than execute the command above
-
-> go to IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/ folder in 'Files'
-
-> unzip dialogflow-web-v2.zip into dialogflow-web-v2 folder
-
-> go to terminal
-
-> $ cd IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/dialogflow-web-v2/
-
-> $ npm install
-
-> $ npm run dev
-
-> go to IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/ folder in 'Files'
-
-> **open iss.html in Chrome
-
-### [ 2 ] To run the system in other/local machine:
-### Install npm, get latest nodejs n npm
-
-> $ sudo apt-get update
-
-> $ sudo apt-get install npm 
-
-> $ git clone https://github.com/dion797/IRS-CS-2019-04-27-IS01PT-GRP-AMAB.git
-
-> go to IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/ folder in 'Files'
-
-> unzip dialogflow-web-v2.zip into dialogflow-web-v2 folder
-
-> go to terminal
-
-> $ cd IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/dialogflow-web-v2/
-
-> $ npm install
-
-> $ npm run dev
-
-> go to IRS-CS-2019-04-27-IS01PT-GRP-AMAB/SystemCode/ folder in 'Files'
-
-> **open iss.html in Chrome
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
