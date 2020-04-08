@@ -38,16 +38,23 @@ First, it generates proposals about the regions where there might be an object b
 ### [ 3 ] cuDNN 
 
 > install cuDNN for CUDA 9.0 
+
 > https://developer.nvidia.com/rdp/cudnn-download
+
 > Select Download cuDNN v7.6.5 (November 5th, 2019), for CUDA 9.0
 
 ### [ 4 ] Setup cocoapi 
 
 > https://github.com/cocodataset/cocoapi
+
 > Download zip file to local storage
+
 > First go to cocoapi\PythonAPI\setup.py and change line 14 from:
+
 > "extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],"
+
 > to
+
 > "extra_compile_args={'gcc': ['/Qstd=c99']},"
 
 
