@@ -2,7 +2,7 @@ VSE_CA1
 ---
 
 ## SECTION 1 : PROJECT TITLE
-Mask R-CNN Segmantic Segmentation
+Mask R-CNN Semantic Segmentation
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
