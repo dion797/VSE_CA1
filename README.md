@@ -105,7 +105,7 @@ First, it generates proposals about the regions where there might be an object b
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`<Github File Link>` : <https://github.com/dion797/VSE_CA1/blob/master/ProjectReport/Segmentation_Maskv2.docx>
+`<Github File Link>` : <https://github.com/dion797/VSE_CA1/blob/master/ProjectReport/CA1_report_06052020.pdf>
 
 ---
 ## SECTION 7 : MISCELLANEOUS
